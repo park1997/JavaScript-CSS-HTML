@@ -21,3 +21,23 @@
 .tb-body>tr>td{
     border:1px solid black;
 }
+
+p {
+    background:yellowgreen;
+    color:darkgreen;
+}
+
+.class1{
+    background:red;
+    color:darkgoldenrod
+}
+
+#id1{
+    background:blue;
+    color:yellow;
+}
+
+.tb td{
+    border:1px solid black;
+}
+
