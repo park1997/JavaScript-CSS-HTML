@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #menubar {
+            background: olive;
+        }
+        #menubar ul {
+            margin:0;
+            padding:0;
+            /* 모든 아이템 li를 한줄에 품을 수 있는 폭 */
+            width:567px;
+        }
+        #menubar ul li {
+            /* 새 줄로 넘어가지 않게 */
+            display:inline-block;
+            list-style: none;
+            padding:10px 20px;
+        }
+        #menubar ul li a {
+            color:white;
+            /* 링크 보이지 않게 */
+            text-decoration:none;
+        }
+        #menubar ul li a:hover {
+            color:violet;
+        }
+    </style>
+</head>
+<body>
+    <nav id ="menubar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Espresso</a></li>
+            <li><a href="#">Cappuccino</a></li>
+            <li><a href="#">Caffe Latte</a></li>
+            <li><a href="#">F.A.Q</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

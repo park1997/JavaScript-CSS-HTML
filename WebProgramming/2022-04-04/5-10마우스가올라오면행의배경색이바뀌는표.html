@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table thead,tfoot {
+            background : gray;
+            color:yellow;
+        }
+        td, th {
+            text-align:center;
+            padding:10px;
+            height:15px;
+            width:100px;
+        }
+        tbody tr:nth-child(even){
+            background : aliceblue
+        }
+        tbody tr:hover{
+            background : palevioletred
+        }
+    </style>
+</head>
+<body>
+    <h3>1학기 성적</h3>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>HTML</th>
+                <th>CSS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>박병현</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>한규민</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>김성호</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>오광혁</td>
+                <td>100</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>합</th>
+                <th>400</th>
+                <th>400</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
