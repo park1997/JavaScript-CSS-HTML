@@ -1,0 +1,27 @@
+body{
+    background-image: url(../IMG/dgu.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-frame{
+    text-align: center;
+    width:848px;
+    border:1px solid rgb(13, 11, 11);
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+
+}
+.menu-img{
+    float: left;
+}
