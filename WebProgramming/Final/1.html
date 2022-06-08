@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function viewPlace(){
+            let tagArray = document.getElementsByClassName("place");
+            for(let i = 0; i<tagArray.length; i++){
+                let tag = tagArray[i];
+                tag.style.color = "orchid";
+                tag.style.fontSize = "20px";
+                tag.style.textDecoration = "underline"
+            }
+        }
+        
+        function viewFood(){
+            let tagArray = document.getElementsByClassName("food");
+            for(let i = 0; i<tagArray.length; i++){
+                let tag = tagArray[i];
+                tag.style.color = "darkcyan";
+                // tag.style.fontSize = "20px";
+                tag.style.textDecoration = "underline"
+            } 
+        }
+    </script>
+</head>
+<body>
+    <h3>가고 싶은곳 먹고 싶은 것</h3><br>
+    <button onclick="viewPlace()">가고 싶은 곳</button>
+    <button onclick="viewFood()">먹고 싶은 것</button>
+    <hr>
+    <p>
+        <span class="place">제주도</span>에가서 <span class="food">흑돼지</span>먹고싶어요
+    </p>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var cnt = 0;
+        function ans1(){
+            cnt += 1;
+            let obj = document.getElementById("answer1");
+            if(cnt%2 === 1){
+                let newDiv = document.createElement("p");
+                newDiv.innerHTML = "한규민";
+                newDiv.setAttribute("id","gyumin");
+                obj.appendChild(newDiv);
+            }else{
+                let removeDiv = document.getElementById("gyumin");
+                obj.removeChild(removeDiv)
+            }
+        }
+        function ans2(){
+
+        }
+
+    </script>
+</head>
+<body>
+    <h3>정답의 동적 삽입</h3>
+    <hr>
+    <p id="answer1">Q. 거울아 거울아 세상에서 누가 제일 이쁘니?<br>
+        <button onclick="ans1()">답보기</button><br>
+    </p>
+    
+
+    <p>Q. 죽느냐 사느냐 어떤것이 문제인가?</p>
+    <button onclick="ans2()" id="answer2">답보기</button><br>
+    
+
+
+</body>
+</html>

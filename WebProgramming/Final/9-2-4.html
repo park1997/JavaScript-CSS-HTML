@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function makeBorder(){
+            let tagArray = document.getElementsByTagName("span");
+            for(let i =0;i<tagArray.length;i++){
+                let tag = tagArray[i];
+                tag.style.border= "2px dotted #F0F";
+                console.log(tag);
+            }
+        }
+
+        function countSpan(){
+            let tagArray = document.getElementsByTagName("span");
+            alert(tagArray.length);
+        }
+    </script>
+</head>
+<body>
+    <h3>자바스크립트란?</h3>
+    <button onclick="makeBorder()">border</button>
+    <button onclick="countSpan()">span</button>
+    <hr>
+
+    <div>
+        자바스크립트응 <span>웹프로그래밍</span> 언어로서 웹 <span id="mySpan">페이지를</span> 동적 변형 시킬수 있다. 
+    </div>
+
+</body>
+</html>
