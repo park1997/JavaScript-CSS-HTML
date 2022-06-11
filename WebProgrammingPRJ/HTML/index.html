@@ -4,40 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../CSS/default.css" rel="stylesheet">
+    <link href="../CSS/index.css" rel="stylesheet">
     <title>공도리</title>
+    <script src="../JAVASCRIPT/index.js" async></script>
 </head>
 <body>
     <a href="/WebProgrammingPRJ/HTML/index.html"><img src="../IMG/dgu_logo.png" id = "logo" style="height:15%; width:15%"></a>
     <header class="main-frame">
-        <ul id = "nav-bar">
-            <li><a href="/WebProgrammingPRJ/HTML/index.html">문제 난이도 분류</a></li>
-            <li><a href="/html/intro">질문 하기</a></li>
-            <li><a class="current" href="/css/intro">최근 추가된 문제</a></li>
-            <li><a class="current" href="/css/intro">홈페이지 소개</a></li>
-            <li><a class="current" href="/css/intro">프로필</a></li>
-            <ul style="float:right; list-style-type:none;">
-                <li><a href="/bbs/login.php">로그인</a></li>
-                <li><a href="/bbs/register_form.php">회원가입</a></li>
+        <ul id = "nav-bar" class="menu" style="background-color: #639aed;">
+            <li>
+                <a href="/WebProgrammingPRJ/HTML/index.html">문제 난이도 분류</a>
+                <ul class="second">
+                    <li>어려움</li>
+                    <li>보통</li>
+                    <li>쉬움</li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="/WebProgrammingPRJ/HTML/qna.html">질문 하기</a>
+                <ul class="second">
+                    <li>문제 질문</li>
+                    <li>오타/오역 요청</li>
+                    <li>자유</li>
+                    <li>홍보</li>
+                </ul>
+            </li>
+
+            <li>
+                <a class="current" href="/WebProgrammingPRJ/HTML/recent.html">최근 추가된 문제</a>
+                <ul class="second">
+                    <li>2022 상반기 오전반</li>
+                    <li>2022 상반기 오후반</li>
+                </ul>
+            </li>
+
+            <li>
+                <a class="current" href="/WebProgrammingPRJ/HTML/intro.html">홈페이지 소개</a>
+            </li>
+            
+            <li><a class="current" href="/WebProgrammingPRJ/HTML/profile.html">프로필</a></li>
+            <ul style="float:right; list-style-type:none; background-color: #639aed;">
+                <li><a href="/WebProgrammingPRJ/HTML/log-in.html">로그인</a></li>
+                <li><a href="/WebProgrammingPRJ/HTML/sign-in.html">회원가입</a></li>
             </ul>
         </ul>
         
         
-
-
         <a herf=""><img src="../IMG/SAMSUNG_2.jpeg" style="height:60%; width:60%"></a>
+        
     </header>
 
-    <section>
-        <div class="counters" style="background-position: 50% 73px;">
-            <h4>전체문제</h4>
-            <span class="counter">30개</span>
+    <article>
+        <div class="parents">
+            <div class="first-chi">
+                <span>전체 문제</span>
+                <hr>
+                <h4>30개</h4>
+            </div>
+            
+            <div class="second-chi">
+                <span>채점 현황</span>
+                <hr>
+                <ol type="*">
+                    <li>iambyunghyun "예술성" 맞았습니다. </li>
+                    <li>assayw119 "술래잡기" 맞았습니다. </li>
+                    <li>wltjq4300 "꼬리잡기놀이" 맞았습니다. </li>
+                    <li>awhtjddn1 "나무박멸" 맞았습니다. </li>
+                </ol>
+            </div>
+            
+            <div class="third-chi">
+                <span>문제 순위</span>
+                <hr>
+                <ol>
+                    <li>삼성 SW 역량테스트 2022 상반기 오전 1번 문제 "술래잡기"</li>
+                    <li>삼성 SW 역량테스트 2022 상반기 오후 2번 문제 "나무박멸"</li>
+                    <li>삼성 SW 역량테스트 2022 상반기 오전 2번 문제 "예술성" </li>
+                    <li>삼성 SW 역량테스트 2022 상반기 오후 1번 문제 "꼬리잡기놀이"</li>
+                </ol>
+            </div>
         </div>
-    </section>
-    
-
-
-    
+    </article><br><br><br><br><br><br><br><br>
+    <footer>
+        <div class="inner">
+            <div class="upper">
+                <h1>DCODELAB</h1>
+                <ol>
+                    <li><a href="#">policy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ol>
+            
+            </div>
+            <div class="lower">
+                <address>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                    TEL : 02-xxxx-xxxx C. P. : 010-1234-5678
+                </address>
+                <p>
+                    2022 BYEONG HYEON; copyright all right reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
