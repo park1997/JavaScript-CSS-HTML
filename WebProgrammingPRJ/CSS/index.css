@@ -69,7 +69,8 @@ header ul li a:hover{
     top :100%;
     left:0;
     display:none;
-    font-size: 12px;
+    font-size: 8px;
+    margin : auto;
 }
 .second li {
     width: 100px;

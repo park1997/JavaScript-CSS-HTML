@@ -1,0 +1,13 @@
+body{
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%
+}
+.title{
+    font-style: bold;
+    font-size: 40px;
+}
+.info{
+    font-style: oblique;
+    font-size: 20px;
+}
